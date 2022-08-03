@@ -19,6 +19,8 @@ public class FacebookLogin_Test {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
+		System.out.println(driver.getCurrentUrl());
+		System.out.println("Updated one ");
 
 	}
 
